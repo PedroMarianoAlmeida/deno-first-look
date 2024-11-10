@@ -1,5 +1,5 @@
 {
-  "workspace": ["./add", "./subtract", "./standalone-react"],
+  "workspace": ["./add", "./subtract", "./standalone-react", "./cli-tut"],
   "imports": {
     "chalk": "npm:chalk@5"
   }
