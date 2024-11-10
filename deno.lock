@@ -8,9 +8,26 @@
       "integrity": "sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w=="
     }
   },
+  "redirects": {
+    "https://esm.sh/react": "https://esm.sh/react@18.3.1",
+    "https://esm.sh/react-dom/server": "https://esm.sh/react-dom@18.3.1/server"
+  },
+  "remote": {
+    "https://esm.sh/react-dom@18.3.1/server": "90e374c5323303d5315c780b19e5d6297ec5a569f9cee1df28ee1030dd23af9c",
+    "https://esm.sh/react@18.3.1": "52480d4c00855e4f76843caa4f2818eb001671523740cbf064cbd108721c29c8",
+    "https://esm.sh/stable/react@18.3.1/denonext/react.mjs": "fc048ffc55366baf7669519127d186761db72046e2bebf35fe8d0de3964defa3",
+    "https://esm.sh/v135/react-dom@18.3.1/denonext/server.js": "b4db56f16b45002b5e9b127a9938ab45b12f39825161dffe875920510c524878"
+  },
   "workspace": {
     "dependencies": [
       "npm:chalk@5"
-    ]
+    ],
+    "members": {
+      "standalone-react": {
+        "dependencies": [
+          "jsr:@std/assert@1"
+        ]
+      }
+    }
   }
 }

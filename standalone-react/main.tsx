@@ -1,10 +1,11 @@
 import React from "https://esm.sh/react";
 import { renderToString } from "https://esm.sh/react-dom/server";
+import { add } from "@scope/add";
 
 const AppRoot = () => (
   <h1 style={{ backgroundColor: "red" }}>Hello from React</h1>
 );
-const About = () => <h1>About</h1>;
+const About = () => <h1>About {add(1, 3)}</h1>;
 
 Deno.serve((_req) => {
   const url = new URL(_req.url);
