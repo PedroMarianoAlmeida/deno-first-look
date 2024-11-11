@@ -9,5 +9,6 @@
   ],
   "imports": {
     "chalk": "npm:chalk@5"
-  }
+  },
+  "nodeModulesDir": "auto"
 }
