@@ -1,0 +1,46 @@
+{
+  "hash": "998e62db",
+  "configHash": "34a4523a",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "7307df6e",
+  "optimized": {
+    "react": {
+      "src": "../../../node_modules/.deno/react@18.3.1/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "f425962f",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../../node_modules/.deno/react-dom@18.3.1/node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "8b46e42e",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../../node_modules/.deno/react@18.3.1/node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "a0f644f6",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../../node_modules/.deno/react@18.3.1/node_modules/react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "aa5a49aa",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../../node_modules/.deno/react-dom@18.3.1/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "f40cba85",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-PRQDD4MN": {
+      "file": "chunk-PRQDD4MN.js"
+    },
+    "chunk-MAY4RJSG": {
+      "file": "chunk-MAY4RJSG.js"
+    }
+  }
+}

@@ -9,6 +9,8 @@
     "npm:@types/node@*": "22.5.4",
     "npm:@types/react-dom@^18.3.1": "18.3.1",
     "npm:@types/react@^18.3.12": "18.3.12",
+    "npm:@typescript-eslint/eslint-plugin@^8.11.0": "8.13.0_@typescript-eslint+parser@8.13.0__eslint@9.14.0__typescript@5.6.3_eslint@9.14.0_typescript@5.6.3",
+    "npm:@typescript-eslint/parser@^8.11.0": "8.13.0_eslint@9.14.0_typescript@5.6.3",
     "npm:@vitejs/plugin-react@^4.3.3": "4.3.3_vite@5.4.10__@types+node@22.5.4_@babel+core@7.26.0_@types+node@22.5.4",
     "npm:astro@4.16.10": "4.16.10_@babel+core@7.26.0_typescript@5.6.3_@types+node@22.5.4_vite@5.4.10__@types+node@22.5.4_zod@3.23.8",
     "npm:astro@^4.16.10": "4.16.10_@babel+core@7.26.0_typescript@5.6.3_@types+node@22.5.4_vite@5.4.10__@types+node@22.5.4_zod@3.23.8",
@@ -21,9 +23,9 @@
     "npm:globals@^15.11.0": "15.12.0",
     "npm:react-dom@^18.3.1": "18.3.1_react@18.3.1",
     "npm:react@^18.3.1": "18.3.1",
-    "npm:typescript-eslint@^8.11.0": "8.13.0_@typescript-eslint+parser@8.13.0__eslint@9.14.0__typescript@5.6.3_eslint@9.14.0_typescript@5.6.3",
     "npm:typescript@^5.6.3": "5.6.3",
     "npm:typescript@~5.6.2": "5.6.3",
+    "npm:vite@*": "5.4.10_@types+node@22.5.4",
     "npm:vite@5.4.10": "5.4.10_@types+node@22.5.4",
     "npm:vite@^5.4.10": "5.4.10_@types+node@22.5.4"
   },
@@ -3009,14 +3011,6 @@
         "semver@7.6.3"
       ]
     },
-    "typescript-eslint@8.13.0_@typescript-eslint+parser@8.13.0__eslint@9.14.0__typescript@5.6.3_eslint@9.14.0_typescript@5.6.3": {
-      "integrity": "sha512-vIMpDRJrQd70au2G8w34mPps0ezFSPMEX4pXkTzUkrNbRX+36ais2ksGWN0esZL+ZMaFJEneOBHzCgSqle7DHw==",
-      "dependencies": [
-        "@typescript-eslint/eslint-plugin",
-        "@typescript-eslint/parser",
-        "@typescript-eslint/utils"
-      ]
-    },
     "typescript@5.6.3": {
       "integrity": "sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw=="
     },
@@ -3455,23 +3449,22 @@
         ]
       },
       "vite-v1": {
-        "packageJson": {
-          "dependencies": [
-            "npm:@eslint/js@^9.13.0",
-            "npm:@types/react-dom@^18.3.1",
-            "npm:@types/react@^18.3.12",
-            "npm:@vitejs/plugin-react@^4.3.3",
-            "npm:eslint-plugin-react-hooks@5",
-            "npm:eslint-plugin-react-refresh@~0.4.14",
-            "npm:eslint@^9.13.0",
-            "npm:globals@^15.11.0",
-            "npm:react-dom@^18.3.1",
-            "npm:react@^18.3.1",
-            "npm:typescript-eslint@^8.11.0",
-            "npm:typescript@~5.6.2",
-            "npm:vite@^5.4.10"
-          ]
-        }
+        "dependencies": [
+          "npm:@eslint/js@^9.13.0",
+          "npm:@types/react-dom@^18.3.1",
+          "npm:@types/react@^18.3.12",
+          "npm:@typescript-eslint/eslint-plugin@^8.11.0",
+          "npm:@typescript-eslint/parser@^8.11.0",
+          "npm:@vitejs/plugin-react@^4.3.3",
+          "npm:eslint-plugin-react-hooks@5",
+          "npm:eslint-plugin-react-refresh@~0.4.14",
+          "npm:eslint@^9.13.0",
+          "npm:globals@^15.11.0",
+          "npm:react-dom@^18.3.1",
+          "npm:react@^18.3.1",
+          "npm:typescript@~5.6.2",
+          "npm:vite@^5.4.10"
+        ]
       }
     }
   }
