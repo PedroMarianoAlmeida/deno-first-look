@@ -5,7 +5,8 @@
     "./standalone-react",
     "./cli-tut",
     "./astro-v2",
-    "./astro-v3"
+    "./astro-v3",
+    "./vite-v1"
   ],
   "imports": {
     "chalk": "npm:chalk@5"
