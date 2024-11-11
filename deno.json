@@ -4,7 +4,8 @@
     "./subtract",
     "./standalone-react",
     "./cli-tut",
-    "./astro-v2"
+    "./astro-v2",
+    "./astro-v3"
   ],
   "imports": {
     "chalk": "npm:chalk@5"
