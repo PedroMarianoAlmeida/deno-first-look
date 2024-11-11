@@ -1,5 +1,11 @@
 {
-  "workspace": ["./add", "./subtract", "./standalone-react", "./cli-tut"],
+  "workspace": [
+    "./add",
+    "./subtract",
+    "./standalone-react",
+    "./cli-tut",
+    "./astro-v2"
+  ],
   "imports": {
     "chalk": "npm:chalk@5"
   }
