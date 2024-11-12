@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@palmeida/add": "jsr:@palmeida/add@^0.1.0"
+  }
+}
