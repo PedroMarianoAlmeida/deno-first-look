@@ -6,7 +6,8 @@
     "./cli-tut",
     "./astro-v2",
     "./astro-v3",
-    "./vite-v1"
+    "./vite-v1",
+    "./next-v1"
   ],
   "imports": {
     "chalk": "npm:chalk@5"
