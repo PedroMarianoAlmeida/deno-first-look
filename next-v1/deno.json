@@ -1,0 +1,21 @@
+{
+  "tasks": {
+    "dev": "deno run -A npm:next dev",
+    "build": "deno run -A npm:next build",
+    "start": "deno run -A npm:next start",
+    "lint": "deno run -A npm:eslint ."
+  },
+  "imports": {
+    "react": "npm:react@19.0.0-rc-66855b96-20241106",
+    "react-dom": "npm:react-dom@19.0.0-rc-66855b96-20241106",
+    "next": "npm:next@15.0.3",
+    "typescript": "npm:typescript@^5",
+    "@types/node": "npm:@types/node@^20",
+    "@types/react": "npm:@types/react@^18",
+    "@types/react-dom": "npm:@types/react-dom@^18",
+    "postcss": "npm:postcss@^8",
+    "tailwindcss": "npm:tailwindcss@^3.4.1",
+    "eslint": "npm:eslint@^8",
+    "eslint-config-next": "npm:eslint-config-next@15.0.3"
+  }
+}
