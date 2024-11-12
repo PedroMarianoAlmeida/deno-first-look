@@ -1,0 +1,11 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@palmeida/add@*": "0.1.0"
+  },
+  "jsr": {
+    "@palmeida/add@0.1.0": {
+      "integrity": "a31f03d053f23e7923867a83741eca2e132adede62ddfed7630525f8c1c6cbd7"
+    }
+  }
+}
